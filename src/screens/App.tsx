@@ -28,7 +28,6 @@ function App() {
               </Routes>
               {/* <h1 className="text-2xl font-bold">Efrain Diaz</h1> */}
             </section>
-            
           </section>
           <Navbar />
         </section>
