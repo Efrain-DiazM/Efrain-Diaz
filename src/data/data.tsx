@@ -1,18 +1,10 @@
 import {
     FaHouse,
-    FaCartShopping,
     FaChartSimple,
     FaGaugeHigh,
     FaUser,
-    FaLock,
     FaFile,
     FaWhatsapp,
-    FaFacebookF,
-    FaLinkedinIn,
-    FaGithub,
-    FaInstagram,
-    FaXTwitter,
-    FaYoutube
   } from 'react-icons/fa6';
   
   type NavItemType = {

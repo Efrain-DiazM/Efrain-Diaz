@@ -7,9 +7,9 @@ import Experiences from './Experiences';
 
 function App() {
   return (
-    <main className='grid grid-row w-screen h-screen font-roboto'>
+    <main className='grid grid-row-[140px_1fr] w-screen h-screen font-roboto'>
       {/* <Navbar /> */}
-      <section className='grid grid-rows-[140px_1fr]'>
+      {/* <section className='grid grid-rows-[140px_1fr]'> */}
         <Header />
         <section className='grid grid-cols-[1fr_120px]'>
           {/* <section className=''>
@@ -33,7 +33,7 @@ function App() {
         </section>
         
         {/* <Footer /> */}
-      </section>
+      {/* </section> */}
     </main>
   );
 }
