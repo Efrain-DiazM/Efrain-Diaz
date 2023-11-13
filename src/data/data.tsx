@@ -1,9 +1,9 @@
 import {
-    FaHouse,
-    FaChartSimple,
-    FaGaugeHigh,
+    FaMessage,
+    FaStarHalfStroke,
+    FaFolderTree,
     FaUser,
-    FaFile,
+    FaGraduationCap,
     // FaWhatsapp,
   } from 'react-icons/fa6';
   
@@ -29,25 +29,25 @@ import {
       {
         id: 2,
         title: 'Experiencias',
-        icon: <FaFile className={navItem == 2 ? 'text-Color-yellow w-8 h-8 mr-8' : 'w-7 h-7'} />,
+        icon: <FaGraduationCap className={navItem == 2 ? 'text-Color-yellow w-8 h-8 mr-8' : 'w-7 h-7'} />,
         to: '/Experiences',
       },
       {
         id: 3,
         title: 'Habilidades',
-        icon: <FaChartSimple className={navItem == 3 ? 'text-Color-yellow w-8 h-8 mr-8' : 'w-7 h-7'} />,
+        icon: <FaStarHalfStroke className={navItem == 3 ? 'text-Color-yellow w-8 h-8 mr-8' : 'w-7 h-7'} />,
         to: '/Skills',
       },
       {
         id: 4,
         title: 'Proyectos',
-        icon: <FaGaugeHigh className={navItem == 4 ? 'text-Color-yellow w-8 h-8 mr-8' : 'w-7 h-7'} />,
+        icon: <FaFolderTree className={navItem == 4 ? 'text-Color-yellow w-8 h-8 mr-8' : 'w-7 h-7'} />,
         to: '/Projects',
       },
       {
         id: 5,
         title: 'Contactame',
-        icon: <FaHouse className={navItem == 5 ? 'text-Color-yellow w-8 h-8 mr-8' : 'w-7 h-7'} />,
+        icon: <FaMessage className={navItem == 5 ? 'text-Color-yellow w-8 h-8 mr-8' : 'w-7 h-7'} />,
         to: '/ContactMe',
       },
       // {
