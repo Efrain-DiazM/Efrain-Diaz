@@ -24,10 +24,13 @@ export default {
           '950': '#052422',
       },
       'PersonalGray':{
-        '50': '#272829',
-        '100': '#61677A'
+        '100': '#272829',
+        '80': '#46474D',
+        '50': '#4F5157',
+        '25': '#5E5F61'
       },
-      'ColorLetter': '#FFF6E0'   
+      'ColorLetter': '#FFF6E0',
+      'Color-yellow': '#FFB905'
       }
     },
   },

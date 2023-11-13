@@ -4,64 +4,58 @@ import {
     FaGaugeHigh,
     FaUser,
     FaFile,
-    FaWhatsapp,
+    // FaWhatsapp,
   } from 'react-icons/fa6';
   
   type NavItemType = {
     id: number;
-    // title: string;
+    title: string;
     icon: JSX.Element;
     to: string;
   };
   
   type NavbarType = {
-    // logo: {
-    //   title: string;
-    // };
     nav: NavItemType[];
   };
   
   export const dataNavbar = (navItem: number): NavbarType => ({
-    // logo: {
-    //   title: 'HORIZON FREE',
-    // },
     nav: [
       {
         id: 1,
-        // title: 'Dashboard',
-        icon: <FaUser className={navItem == 1 ? 'text-gray-50 w-5 h-5' : 'w-5 h-5'} />,
+        title: 'Sobre mi',
+        icon: <FaUser className={navItem == 1 ? 'text-Color-yellow w-8 h-8 mr-8' : 'w-7 h-7'} />,
         to: '/',
       },
       {
         id: 2,
-        // title: 'NFT Marketplace',
-        icon: <FaFile className={navItem == 2 ? 'text-gray-50 w-5 h-5' : 'w-5 h-5'} />,
+        title: 'Experiencias',
+        icon: <FaFile className={navItem == 2 ? 'text-Color-yellow w-8 h-8 mr-8' : 'w-7 h-7'} />,
         to: '/Experiences',
       },
       {
         id: 3,
-        // title: 'Tables',
-        icon: <FaChartSimple className={navItem == 3 ? 'text-gray-50 w-5 h-5' : 'w-5 h-5'} />,
-        to: '/tables',
+        title: 'Habilidades',
+        icon: <FaChartSimple className={navItem == 3 ? 'text-Color-yellow w-8 h-8 mr-8' : 'w-7 h-7'} />,
+        to: '/Skills',
       },
       {
         id: 4,
-        // title: 'Kanban',
-        icon: <FaGaugeHigh className={navItem == 4 ? 'text-gray-50 w-5 h-5' : 'w-5 h-5'} />,
-        to: '/kanban',
+        title: 'Proyectos',
+        icon: <FaGaugeHigh className={navItem == 4 ? 'text-Color-yellow w-8 h-8 mr-8' : 'w-7 h-7'} />,
+        to: '/Projects',
       },
       {
         id: 5,
-        // title: 'Profile',
-        icon: <FaHouse className={navItem == 5 ? 'text-gray-50 w-5 h-5' : 'w-5 h-5'} />,
-        to: '/profile',
+        title: 'Contactame',
+        icon: <FaHouse className={navItem == 5 ? 'text-Color-yellow w-8 h-8 mr-8' : 'w-7 h-7'} />,
+        to: '/ContactMe',
       },
-      {
-        id: 6,
-        // title: 'Sign In',
-        icon: <FaWhatsapp className={navItem == 6 ? 'text-gray-50 w-5 h-5' : 'w-5 h-5'} />,
-        to: '/signIn',
-      },
+      // {
+      //   id: 6,
+      //   title: 'Sign In',
+      //   icon: <FaWhatsapp className={navItem == 6 ? 'text-Color-yellow w-5 h-5' : 'w-5 h-5'} />,
+      //   to: '/signIn',
+      // },
     ],
   });
   
