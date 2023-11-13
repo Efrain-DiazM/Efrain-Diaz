@@ -6,7 +6,7 @@ import AboutMe from './AboutMe';
 import Experiences from './Experiences';
 import Skills from './Skills';
 import Projects from './Projects';
-import ContactMe from './contactMe';
+import ContactMe from './ContactMe';
 
 function App() {
   return (
