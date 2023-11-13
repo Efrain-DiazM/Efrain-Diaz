@@ -1,4 +1,4 @@
-import { FaFacebookF, FaGithub, FaLinkedinIn, FaInstagram, FaXTwitter, FaYoutube } from "react-icons/fa6";
+import { FaFacebookF, FaGithub, FaLinkedinIn, FaInstagram, FaXTwitter } from "react-icons/fa6";
 // import { logo } from 'src/assets/images/logoED.png';
 
 const Header = () => {
