@@ -11,7 +11,7 @@ const Header = () => {
                 {/* <NavLink to='./Home'>
                     <img src={logo}  className="w-28 h-28" alt="" />
                 </NavLink> */}
-                <a href="./Home"><img src={logo}  className="w-28 h-28" alt="" /></a>
+                <a href="/"><img src={logo}  className="w-28 h-28" alt="" /></a>
                 
             </section>
             <ul className="flex gap-3 justify-end px-5 py-5 text-ColorLetter">
