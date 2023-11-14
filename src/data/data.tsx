@@ -24,7 +24,7 @@ import {
         id: 1,
         title: 'Sobre mi',
         icon: <FaUser className={navItem == 1 ? 'text-Color-yellow w-8 h-8 mr-8' : 'w-7 h-7'} />,
-        to: '/',
+        to: '/AboutMe',
       },
       {
         id: 2,

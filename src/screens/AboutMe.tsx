@@ -1,8 +1,10 @@
+import personalImage from '../assets/images/imagen-Efra.png';
+
 const AboutMe = () => {
     return (
         <section className="grid grid-rows">
             <section className="grid grid-cols-[70px_1fr] px-8 pt-8 pb-4">
-                <img src="src/assets/images/imagen-Efra.png" className="w-16 h-16 rounded-full" alt="" />
+                <img src={ personalImage } className="w-16 h-16 rounded-full" alt="Efrain-Diaz" />
                 <section className="text-ColorLetter font-roboto">
                     <h1 className="text-2xl font-bold">Efrain Diaz</h1>
                     <p >Ingeniero de software </p>
