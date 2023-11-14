@@ -15,12 +15,12 @@ function App() {
       {/* <Navbar /> */}
       {/* <section className='grid grid-rows-[140px_1fr]'> */}
         <Header />
-        <section className='grid grid-cols-[1fr_18%]'>
+        <section className='grid md:grid-cols-[1fr_18%] grid-rows-[1fr_18%]'>
           {/* <section className=''>
 
           </section> */}
           <section className='bg-PersonalGray-100 flex items-center justify-center h-full'>
-            <section className="bg-PersonalGray-50 h-[80%] w-[85%] rounded-2xl">
+            <section className="bg-PersonalGray-50 md:h-[80%] md:w-[85%] mx-4 rounded-2xl">
               <Routes>
                 <Route path='/AboutMe' element={<AboutMe />} />
                 <Route path='/Experiences' element={<Experiences />} />

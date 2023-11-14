@@ -2,8 +2,8 @@ import { FaPhone, FaLocationDot, FaEnvelope } from "react-icons/fa6";
 
 const contactMe = () => {
     return (
-        <section className="grid grid-cols-2">
-            <section className="flex flex-col">
+        <section className="grid md:grid-cols-2 grid-rows-2">
+            <section className="md:flex md:flex-col">
                 <h1 className=" text-Color-yellow text-center mt-14 text-2xl font-bold">Contactame</h1>
                 <p className="text-ColorLetter m-12 text-sm text-justify ">¿Tienes alguna pregunta o propuesta, o simplemente quieres saludar? Adelante contactame o enviando el siguiente formulario</p>
                 <section className="bg-PersonalGray-25 rounded-xl text-ColorLetter mx-12">
@@ -23,7 +23,7 @@ const contactMe = () => {
             </section>
 
 
-            <section className="w-full max-w-md mt-4">
+            <section className="md:w-full md:max-w-md md:mt-4">
                 <form className="bg-PersonalGray-80 shadow-md rounded-3xl px-8 pb-4 mb-2">
                 <h1 className=" text-Color-yellow text-center text-2xl font-bold">Enviar mensaje</h1>
                     <section className="mb-2 mt-2">

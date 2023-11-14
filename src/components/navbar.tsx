@@ -15,7 +15,7 @@ const Navbar = () => {
           {/* <span className='ml-2 font-light'>{titleLogo[1]}</span> */}
         {/* </h1> */}
       </NavLink>
-      <ul className='flex flex-col items-center gap-y-20 pt-12'>
+      <ul className='flex md:flex-col flex-row items-center md:gap-y-20 gap-x-14 mx-10 md:pt-12 pt-3 md:pb-2'>
         {dataNavbar(navbarItemActive).nav.map((item) => (
           <NavLink
             key={item.id}
@@ -25,7 +25,7 @@ const Navbar = () => {
               selectedItemNavbar(item.id);
             }}
           >
-            <span className={item.id == navbarItemActive ? 'mr-4 text-xl font-extrabold text-Color-yellow border-Color-yellow' : 'mr-3 text-PersonalGray-100'}>
+            <span className={item.id == navbarItemActive ? 'md:mr-4 md:text-xl md:visible hidden md:font-extrabold md:text-Color-yellow md:border-Color-yellow' : 'md:mr-3 md:text-PersonalGray-100 md:visible hidden'}>
               {item.title}
             </span>
             {item.icon}

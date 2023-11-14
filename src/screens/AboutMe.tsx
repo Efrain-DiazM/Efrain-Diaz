@@ -11,7 +11,7 @@ const AboutMe = () => {
                 </section>
                 
             </section>
-            <section className="text-ColorLetter text-justify font-roboto px-20 py-5">
+            <section className="text-ColorLetter text-justify font-roboto md:px-20 pl-4 pr-10 py-5 overflow-y-scroll">
                 <p>Soy un apasionado de la programación en el desarrollo de software tanto en el backend como en el
                     frontend,  la creación de proyectos que no solo desafíen mis habilidades, sino que también ofrezcan 
                     soluciones de problemas del mundo real.</p>
