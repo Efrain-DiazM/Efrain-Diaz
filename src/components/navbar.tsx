@@ -15,7 +15,7 @@ const Navbar = () => {
           {/* <span className='ml-2 font-light'>{titleLogo[1]}</span> */}
         {/* </h1> */}
       </NavLink>
-      <ul className='flex md:flex-col flex-row items-center md:gap-y-20 gap-x-14 mx-10 md:pt-12 pt-3 md:pb-2'>
+      <ul className='flex md:flex-col flex-row items-center md:gap-y-20 gap-x-14 mx-10 pt-3 md:pb-2'>
         {dataNavbar(navbarItemActive).nav.map((item) => (
           <NavLink
             key={item.id}

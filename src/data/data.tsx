@@ -17,6 +17,11 @@ import {
   type NavbarType = {
     nav: NavItemType[];
   };
+
+  type LanguageType = {
+    label: string;
+    code: string;
+  };
   
   export const dataNavbar = (navItem: number): NavbarType => ({
     nav: [
@@ -58,4 +63,9 @@ import {
       // },
     ],
   });
+
+  export const languageData = (): LanguageType[] => [
+    { label: 'English', code: 'en' },
+    { label: 'Spanish', code: 'es' },
+  ];
   

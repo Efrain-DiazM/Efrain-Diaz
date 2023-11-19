@@ -13,7 +13,7 @@ const Home = () => {
                 <p className="text-ColorLetter font-bold text-xl md:mr-44 mx-10 md:mx-0">
                     INGENIERO DE SOFTWARE, BACK END Y FRONT END
                 </p>
-                <section className="flex text-PersonalGray-50 gap-6 items-center md:m-3 mt-6 m-4">
+                <section className="flex text-PersonalGray-50 gap-6 items-center md:mx-3 mt-9 m-4">
                 {/* <Routes> */}
                     {/* <Route path='/' element={<App />} /> */}
                     {/* <Route path='*' element={<NotFound />} /> */}

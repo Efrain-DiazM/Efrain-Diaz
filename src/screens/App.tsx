@@ -11,16 +11,16 @@ import Home from '../components/Home';
 
 function App() {
   return (
-    <main className='grid w-screen h-screen font-roboto'>
+    <main className='grid grid-rows h-full w-auto font-roboto'>
       {/* <Navbar /> */}
       {/* <section className='grid grid-rows-[140px_1fr]'> */}
         <Header />
-        <section className='grid md:grid-cols-[1fr_18%] grid-rows-[1fr_18%]'>
+        <section className='grid md:grid-cols-[1fr_18%] grid-rows-[1fr_18%] md:justify h-full'>
           {/* <section className=''>
 
           </section> */}
-          <section className='bg-PersonalGray-100 flex items-center justify-center h-full'>
-            <section className="bg-PersonalGray-50 md:h-[80%] md:w-[85%] mx-4 rounded-2xl">
+          <section className='bg-PersonalGray-100 flex items-center justify-center'>
+            <section className="bg-PersonalGray-50 w-full md:h-[80%] h-full md:mx-20 mx-4 rounded-2xl">
               <Routes>
                 <Route path='/AboutMe' element={<AboutMe />} />
                 <Route path='/Experiences' element={<Experiences />} />
@@ -32,7 +32,10 @@ function App() {
               </Routes>
             </section>
           </section>
+          <section className='bg-PersonalGray-50 h-full py-4 items-center justify-center'>
           <Navbar />
+          </section>
+          
         </section>
         
         {/* <Footer /> */}
