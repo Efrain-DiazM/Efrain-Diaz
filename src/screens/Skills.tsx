@@ -1,7 +1,7 @@
 const Skills = () => {
     return (
         <section className="text-ColorLetter">
-            Habilidades
+            <h1 className="">Habilidades</h1>
         </section>
     );
 };

@@ -6,7 +6,6 @@ const AboutMe = () => {
 
     const { t } = useTranslation();
 
-
     return (
         <section className="grid grid-rows">
             <section className="grid grid-cols-[70px_1fr] px-8 pt-8 pb-4">
@@ -17,7 +16,7 @@ const AboutMe = () => {
                 </section>
                 
             </section>
-            <section className="text-ColorLetter text-justify font-roboto md:px-20 pl-4 pr-10 py-5 md:hidde:overflow-y-scroll">
+            <section className="text-ColorLetter text-justify font-roboto md:px-20 pl-4 pr-4 py-5 md:hidde:overflow-y-scroll">
                 <p>{t('aboutMe')}</p>
                 
                 </section>

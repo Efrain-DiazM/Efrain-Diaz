@@ -15,7 +15,7 @@ const Header = () => {
       };
 
     return (
-        <header className="bg-PersonalGray-100 grid md:grid-cols-[15%_30%_1fr]">
+        <header className="bg-PersonalGray-100 grid md:grid-cols-[15%_1fr_20%]">
             <section className="md:ml-14 md:mt-6 ml-6 mt-4">
                 {/* <NavLink to='./Home'>
                     <img src={logo}  className="w-28 h-28" alt="" />
@@ -23,17 +23,19 @@ const Header = () => {
                 <a href="/"><img src={logo}  className="md:w-28 md:h-28 w-14 h-14" alt="" /></a>
                 
             </section>
-            <select
-                defaultValue={i18n.language}
-                onChange={onChangeLang}
-                className='block px-3 py-2 text-gray-700 bg-white border border-gray-300 rounded-md shadow-sm w-52 focus:outline-none focus:ring-primary-500 focus:border-primary-500'
-            >
-                {languageData().map(({ code, label }) => (
-                <option key={code} value={code}>
-                    {label}
-                </option>
-                ))}
-            </select>
+            <section className="self-start m-4 justify-self-end  bg-ColorLetter">
+                <select
+                    defaultValue={i18n.language}
+                    onChange={onChangeLang}
+                    className='block px-3 py-1 text-gray-700 bg-ColorLetter rounded-3xl shadow-sm w-52 focus:outline-none focus:ring-primary-500 focus:border-primary-500'
+                >
+                    {languageData().map(({ code, label }) => (
+                    <option key={code} value={code}>
+                        {label}
+                    </option>
+                    ))}
+                </select>
+            </section>
             <ul className="flex gap-3 md:justify-end md:px-5 md:py-5 md:text-ColorLetter md:visible invisible">
                 <a href="https://github.com/Efrain-DiazM" target="_blank" rel="noopener noreferrer"><FaGithub className='w-7 h-7 transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110 duration-300' /></a>
                 <a href="https://www.linkedin.com/in/efrain-diazm/" target="_blank" rel="noopener noreferrer"><FaLinkedinIn className='w-7 h-7 transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110 duration-300'/></a>

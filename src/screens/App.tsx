@@ -11,7 +11,7 @@ import Home from '../components/Home';
 
 function App() {
   return (
-    <main className='grid grid-rows h-full w-auto font-roboto'>
+    <main className='grid grid-rows h-screen w-auto font-roboto'>
       {/* <Navbar /> */}
       {/* <section className='grid grid-rows-[140px_1fr]'> */}
         <Header />
@@ -27,12 +27,13 @@ function App() {
                 <Route path='/Skills' element={<Skills />} />
                 <Route path='/Projects' element={<Projects />} />
                 <Route path='/ContactMe' element={<ContactMe />} />
+
                 <Route path='/' element={<Home />} />
                 {/* <Route path='*' element={<NotFound />} /> */}
               </Routes>
             </section>
           </section>
-          <section className='bg-PersonalGray-50 h-full py-4 items-center justify-center'>
+          <section className='bg-PersonalGray-100 h-full py-1 self-center'>
           <Navbar />
           </section>
           
