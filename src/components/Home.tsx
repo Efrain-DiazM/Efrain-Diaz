@@ -1,6 +1,7 @@
 import { FaArrowRightToBracket } from "react-icons/fa6";
 import personalImage from '../assets/images/imagen-Efra.png';
 import { useTranslation } from "react-i18next";
+import { NavLink } from 'react-router-dom';
 // import App from "../screens/App";
 // import { Route, Routes } from "react-router-dom";
 
@@ -18,7 +19,9 @@ const Home = () => {
                     {t('homeDesc')}
                 </p>
                 <section className="flex text-PersonalGray-50 gap-6 items-center md:mx-3 mt-9 m-4">
-                    <a href="/AboutMe"><FaArrowRightToBracket className="w-14 h-14 animate-bounce" /></a>
+                    <NavLink to='./AboutMe'>
+                        <FaArrowRightToBracket className="w-14 h-14 animate-bounce" />
+                    </NavLink>
                     <h4 className="text-2xl font-extrabold">
                         {t('homeAboutMe')}
                     </h4>
