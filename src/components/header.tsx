@@ -15,7 +15,7 @@ const Header = () => {
       };
 
     return (
-        <header className="bg-PersonalGray-100 grid md:grid-cols-[15%_1fr_20%]">
+        <header className="bg-PersonalGray-100 md:grid md:grid-cols-[15%_1fr_auto] flex">
             <section className="md:ml-14 md:mt-6 ml-6 mt-4">
                 {/* <NavLink to='./Home'>
                     <img src={logo}  className="w-28 h-28" alt="" />
@@ -23,11 +23,11 @@ const Header = () => {
                 <a href="/"><img src={logo}  className="md:w-28 md:h-28 w-14 h-14" alt="" /></a>
                 
             </section>
-            <section className="self-start m-4 justify-self-end  bg-ColorLetter">
+            <section className="md:self-start self-end m-4 justify-self-end bg-PersonalGray-100">
                 <select
                     defaultValue={i18n.language}
                     onChange={onChangeLang}
-                    className='block px-3 py-1 text-gray-700 bg-ColorLetter rounded-3xl shadow-sm w-52 focus:outline-none focus:ring-primary-500 focus:border-primary-500'
+                    className='block px-4 py-2 text-gray-700 bg-Color-yellow rounded-full focus:outline-none focus:ring-primary-500 focus:border-primary-500'
                 >
                     {languageData().map(({ code, label }) => (
                     <option key={code} value={code}>

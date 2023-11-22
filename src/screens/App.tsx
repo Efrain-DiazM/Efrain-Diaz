@@ -11,16 +11,14 @@ import Home from '../components/Home';
 
 function App() {
   return (
-    <main className='grid grid-rows h-screen w-auto font-roboto'>
-      {/* <Navbar /> */}
-      {/* <section className='grid grid-rows-[140px_1fr]'> */}
+    <main className='grid grid-rows h-auto w-auto font-roboto'>
         <Header />
-        <section className='grid md:grid-cols-[1fr_18%] grid-rows-[1fr_18%] md:justify h-full'>
+        <section className='grid md:grid-cols-[1fr_auto] grid-rows-[1fr_auto] md:justify h-screen'>
           {/* <section className=''>
 
           </section> */}
           <section className='bg-PersonalGray-100 flex items-center justify-center'>
-            <section className="bg-PersonalGray-50 w-full md:h-[80%] h-full md:mx-20 mx-4 rounded-2xl">
+            <section className="bg-PersonalGray-50 w-full h-auto md:h-auto md:mx-20 mx-4 rounded-2xl">
               <Routes>
                 <Route path='/AboutMe' element={<AboutMe />} />
                 <Route path='/Experiences' element={<Experiences />} />
@@ -33,14 +31,11 @@ function App() {
               </Routes>
             </section>
           </section>
-          <section className='bg-PersonalGray-100 h-full py-1 self-center'>
+          <section className='bg-PersonalGray-100 h-full py-8 self-center'>
           <Navbar />
           </section>
           
         </section>
-        
-        {/* <Footer /> */}
-      {/* </section> */}
     </main>
   );
 }
