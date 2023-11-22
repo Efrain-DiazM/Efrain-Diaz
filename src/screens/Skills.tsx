@@ -1,4 +1,3 @@
-import React from 'react';
 import django  from '../assets/images/django.jpg';
 import figma  from '../assets/images/figma.png';
 import python  from '../assets/images/python.png';
