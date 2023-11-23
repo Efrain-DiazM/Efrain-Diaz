@@ -41,9 +41,9 @@ const Skills = () => {
     ];
 
     return (
-        <section className="text-ColorLetter px-8">
+        <section className="text-ColorLetter md:px-8 px-12 ">
             <h1 className="text-Color-yellow text-center justify-center text-2xl font-bold">{t('skillsTitle')}</h1>
-            <section className='group m-4 grid md:grid-cols-4 md:gap-4 grid-cols-2 gap-2' >
+            <section className='group m-2 grid md:grid-cols-4 md:gap-4 grid-cols-1  gap-2 gap-y-4' >
                 {skillsList.map((skill) => (
                     <section
                     key={skill.name}
