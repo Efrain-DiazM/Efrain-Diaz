@@ -14,9 +14,11 @@ import React, { useState } from 'react';
 
 const Skills = () => {
     const { t } = useTranslation();
-    const [skillHovered, setSkillHovered] = useState(null);
+    const [skillHovered, setSkillHovered] = useState<string | null>(null);
+    console.log(React);
+    
 
-    const handleSkillHover = (skill) => {
+    const handleSkillHover = (skill: string) => {
         setSkillHovered(skill);
     };
 
@@ -25,17 +27,17 @@ const Skills = () => {
     };
 
     const skillsList = [
-        { name: 'WordPress', icon: wordpress, descriocion:'mis gabilidades son' },
-        { name: 'JavaScript', icon: javascript, descriocion:'mis gabilidades son' },
-        { name: 'Git', icon: git, descriocion:'mis gabilidades son' },
-        { name: 'Python', icon: python,descriocion:'mis gabilidades son' },
-        { name: 'Mongo DB', icon: mongodb,descriocion:'mis gabilidades son' },
-        { name: 'React', icon: react, descriocion:'mis gabilidades son' },
-        { name: 'Django', icon: django, descriocion:'mis gabilidades son' },
-        { name: 'CSS', icon: css, descriocion:'mis gabilidades son' },
-        { name: 'Tailwind', icon: tailwind, descriocion:'mis gabilidades son' },
-        { name: 'Figma', icon: figma, descriocion:'mis gabilidades son' },
-        { name: 'HTML', icon: htmlIcon, descriocion:'mis gabilidades son' },
+        { name: 'WordPress', icon: wordpress},
+        { name: 'JavaScript', icon: javascript },
+        { name: 'Git', icon: git },
+        { name: 'Python', icon: python},
+        { name: 'Mongo DB', icon: mongodb},
+        { name: 'React', icon: react },
+        { name: 'Django', icon: django },
+        { name: 'CSS', icon: css},
+        { name: 'Tailwind', icon: tailwind },
+        { name: 'Figma', icon: figma },
+        { name: 'HTML', icon: htmlIcon },
     ];
 
     return (
