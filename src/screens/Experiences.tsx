@@ -41,7 +41,6 @@ const SectionItem = ({ title, subtitle }: { title: string; subtitle: string }) =
           </section>
         </section>
   
-        {/* Repite la misma estructura para la sección LABORALES con los datos correspondientes */}
       </section>
     );
   };

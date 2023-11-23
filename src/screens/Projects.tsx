@@ -2,6 +2,9 @@ import { FaChevronRight, FaChevronLeft, FaMinus, FaGithub, FaGlobe } from "react
 import { useState } from "react";
 import { useTranslation } from 'react-i18next';
 import projPortafolio from '../assets/images/ProjPortafolio.png';
+import parkinOne from '../assets/images/parking1.jpg';
+import celeste from '../assets/images/celeste.jpg';
+import { Link } from 'react-router-dom';
 
 const Projects = () => {
   const [currentProject, setCurrentProject] = useState(0);
@@ -11,9 +14,9 @@ const Projects = () => {
     {
       title: t('firstTitleProj'),
       description: t('firstDescProj'),
-      githubLink: 'https://github.com/tu-usuario/repositorio',
+      githubLink: 'https://github.com/Efrain-DiazM',
       demoLink: "https://tu-demo.com",
-      imageSrc: "src/assets/images/imagen-Efra.png",
+      imageSrc: parkinOne,
     },
     {
       title: t('secondTitleProj'),
@@ -25,11 +28,10 @@ const Projects = () => {
     {
       title: t('thirdTitleProj'),
       description: t('thirdDescProj'),
-      githubLink: "https://github.com/tu-usuario/repositorio",
+      githubLink: "https://github.com/Efrain-DiazM",
       demoLink: "https://tu-demo.com",
-      imageSrc: projPortafolio,
+      imageSrc: celeste,
       },
-    // Agrega más proyectos según sea necesario
   ];
 
   const nextProject = () => {
@@ -58,6 +60,7 @@ const Projects = () => {
                     
                     
                     <section className="flex flex-col gap-3 mx-auto py-8">
+                      <Link to={projectsData[currentProject].githubLink}>
                         <button
                         className="items-center gap-2 justify-center flex flex-row bg-ColorLetter hover:bg-Color-yellow text-PersonalGray-100 font-bold py-1 px-4 rounded focus:outline-none focus:shadow-outline"
                         type="button"
@@ -65,6 +68,7 @@ const Projects = () => {
                         <FaGithub className='w-6 h-6' />
                         {t('repository')}
                         </button>
+                      </Link>  
                         <button
                         className="items-center gap-2 justify-center flex flex-row bg-ColorLetter hover:bg-Color-yellow text-PersonalGray-100 font-bold py-1 px-4 rounded focus:outline-none focus:shadow-outline"
                         type="button"

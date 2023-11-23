@@ -3,8 +3,6 @@ import personalImage from '../assets/images/imagen-Efra.png';
 import { useTranslation } from "react-i18next";
 import { NavLink } from 'react-router-dom';
 import { FaFacebookF, FaGithub, FaLinkedinIn, FaInstagram, FaXTwitter } from "react-icons/fa6";
-// import App from "../screens/App";
-// import { Route, Routes } from "react-router-dom";
 
 const Home = () => {
 

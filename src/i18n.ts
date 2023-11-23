@@ -35,10 +35,8 @@ i18n.use(initReactI18next).init({
         firstDescProj:'Software to control vehicle registration and departure, management of rates, monthly payments.',
         secondTitleProj:'Portfolio',
         secondDescProj:'Digital portfolio is a compilation of your best work: the projects that exemplify your qualities, training and experience. Through an online portfolio, you can attract the attention of job recruiters, obtain new job opportunities',
-        thirdTitleProj:'Third project',
-        thirdDescProj:'This is the short description of the third project I have developed',
-        quarterTitleProj:'',
-        quarterDescProj:'',
+        thirdTitleProj:'Celeste store',
+        thirdDescProj:'Website for sale of women clothing',
 
         // contacTitle:'Contact me',
         contacText:'Do you have any questions or suggestions, or just want to say hello? Go ahead and contact me or by sending the following form',
@@ -47,6 +45,8 @@ i18n.use(initReactI18next).init({
         contacFormEmail:'Email',
         contacFormMessage:'Write your message here',
         contacButton:'Send',
+
+        descSkill:'With this tool I have developed',
 
         homeTitle:'Hello, I\'m Efrain Diaz',
         homeDesc:'SOFTWARE ENGINEER, BACK END AND FRONT END',
@@ -82,10 +82,8 @@ i18n.use(initReactI18next).init({
         firstDescProj:'Software para control de registro y salida de vehículos, manejo de tarifas, mensualidades.',
         secondTitleProj:'Portafolio',
         secondDescProj:'Portafolio digital es una compilación de tu mejor trabajo: los proyectos que ejemplifican tus cualidades, capacitación y experiencia. Por medio de un portafolio en línea, puedes llamar la atención de reclutadores de trabajo, obtener nuevas oportunidades laborales',
-        thirdTitleProj:'Tercer proyecto',
-        thirdDescProj:'Esta es la descripcion corta del tercer proyecto que he desarrollado',
-        quarterTitleProj:'',
-        quarterDescProj:'',
+        thirdTitleProj:'Tienda celeste',
+        thirdDescProj:'Pagina web para venta de ropa para mujer',
 
         // contacTitle:'Contactame',
         contacText:'¿Tienes alguna pregunta o propuesta, o simplemente quieres saludar? Adelante contactame o enviando el siguiente formulario',
@@ -94,6 +92,8 @@ i18n.use(initReactI18next).init({
         contacFormEmail:'Email',
         contacFormMessage:'Escriba aqui su mensaje',
         contacButton:'Enviar',
+
+        descSkill:'Con esta herramienta he desarrollado',
 
         homeTitle:'Hola, soy Efrain Diaz',
         homeDesc:'INGENIERO DE SOFTWARE, BACK END Y FRONT END',

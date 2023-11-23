@@ -1,6 +1,5 @@
 import personalImage from '../assets/images/imagen-Efra.png';
 import { useTranslation } from 'react-i18next';
-// import { languageData } from '../data/data'; 
 
 const AboutMe = () => {
 

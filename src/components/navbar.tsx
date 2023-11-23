@@ -7,7 +7,6 @@ import { useNavbarStore } from '../store/navbarstore';
 const Navbar = () => {
   const { navbarItemActive, selectedItemNavbar} = useNavbarStore();
   const { t } = useTranslation();
-//   const titleLogo = dataNavbar(navbarItemActive).logo.title.split(' ');
 
   return (
     <nav className={`flex flex-col min-w-[90px] bg-PersonalGray-100 fixed pb-3 bottom-0 md:static md:block`}>

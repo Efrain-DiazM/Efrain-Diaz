@@ -13,10 +13,7 @@ function App() {
   return (
     <main className='grid grid-rows h-auto w-auto font-roboto'>
         <Header />
-        <section className='grid md:grid-cols-[1fr_auto] grid-rows-[1fr_auto] md:justify h-screen'>
-          {/* <section className=''>
-
-          </section> */}
+        <section className='grid md:grid-cols-[1fr_auto] grid-rows-[1fr_auto] md:justify h-full'>
           <section className='bg-PersonalGray-100 flex items-center justify-center'>
             <section className="bg-PersonalGray-50 w-full h-auto md:h-auto md:mx-20 mx-4 rounded-2xl">
               <Routes>
@@ -27,7 +24,6 @@ function App() {
                 <Route path='/ContactMe' element={<ContactMe />} />
 
                 <Route path='/' element={<Home />} />
-                {/* <Route path='*' element={<NotFound />} /> */}
               </Routes>
             </section>
           </section>

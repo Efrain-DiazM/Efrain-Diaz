@@ -17,9 +17,6 @@ const Header = () => {
     return (
         <header className="bg-PersonalGray-100 md:grid md:grid-cols-[15%_1fr_auto] flex">
             <section className="md:ml-14 md:mt-6 ml-6 mt-4">
-                {/* <NavLink to='./Home'>
-                    <img src={logo}  className="w-28 h-28" alt="" />
-                </NavLink> */}
                 <a href="/"><img src={logo}  className="md:w-28 md:h-28 w-14 h-14" alt="" /></a>
                 
             </section>
@@ -42,9 +39,7 @@ const Header = () => {
                 <a href="https://instagram.com/efrain_diaz_?utm_source=qr&igshid=dm1xOGl6Zno2c3l1" target="_blank" rel="noopener noreferrer"><FaInstagram className='w-7 h-7 transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110 duration-300'/></a>
                 <a href="https://www.facebook.com/efrain.diaz.5095110?mibextid=kFxxJD" target="_blank" rel="noopener noreferrer"><FaFacebookF className='w-7 h-7 transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110 duration-300'/></a>
                 <a href="https://x.com/efraindiaz13?t=_dFp76LI8QiyySHvq924Lw&s=09" target="_blank" rel="noopener noreferrer"><FaXTwitter className='w-7 h-7 transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110 duration-300'/></a>
-                {/* <li><FaYoutube className='w-7 h-7 text-gray-50'/></li> */}
             </ul>
-            {/* <p>Header</p> */}
         </header>
     )
 }
